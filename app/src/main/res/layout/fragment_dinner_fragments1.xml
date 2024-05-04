@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MonWorkoutFragment">
+
+    <LinearLayout
+        android:id="@+id/dinner1"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:background="@drawable/box"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/salad"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salad"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"
+                android:layout_marginHorizontal="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:30 p.m."
+                android:textSize="20sp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginHorizontal="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dinner2"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:background="@drawable/box"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/milk"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protein Shake"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"
+                android:layout_marginHorizontal="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8:00 p.m."
+                android:textSize="20sp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginHorizontal="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

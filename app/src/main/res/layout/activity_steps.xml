@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Steps">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step Tracker"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="70dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="310dp"
+        android:src="@drawable/map"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="230dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/walk_graph">
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8104 Steps"
+            android:textSize="25dp"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginTop="14dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3h 25m"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="14dp"/>
+
+            <TextView
+                android:id="@+id/calories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="359 kcal"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="14dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_grey"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ghome"
+            android:layout_marginHorizontal="12dp"/>
+
+        <View
+            android:layout_width="13dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/workout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/wworkout"
+            android:layout_marginHorizontal="12dp"/>
+
+        <View
+            android:layout_width="13dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/calender"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/wcalender"
+            android:layout_marginHorizontal="12dp"/>
+
+        <View
+            android:layout_width="13dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/diet"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/wdiet"
+            android:layout_marginHorizontal="12dp"/>
+
+        <View
+            android:layout_width="13dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bsetting"
+            android:layout_marginHorizontal="12dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

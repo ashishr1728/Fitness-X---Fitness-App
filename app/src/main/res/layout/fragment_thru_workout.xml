@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThruWorkoutFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/biceps"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:background="@drawable/box"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/biceps"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biceps"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"
+                android:layout_marginHorizontal="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7 Exercise | 10min"
+                android:textSize="20sp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginHorizontal="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/triceps"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:background="@drawable/box"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/triceps"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Triceps"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"
+                android:layout_marginHorizontal="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Exercise | 15min"
+                android:textSize="20sp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginHorizontal="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/forearms"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:background="@drawable/box"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/forearms"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forearms"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"
+                android:layout_marginHorizontal="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Exercise | 5min"
+                android:textSize="20sp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginHorizontal="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
